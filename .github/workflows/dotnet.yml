@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish P1/P3/P3.csproj -c Release -o website
+      run: dotnet publish P3/P3.csproj -c Release -o website
