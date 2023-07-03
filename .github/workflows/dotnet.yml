@@ -32,6 +32,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: website
-        path: P1/website/**
+        path: website/**
         if-no-files-found: error
 
